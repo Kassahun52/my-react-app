@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo h1 {
+  font-size: 24px;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.signInButton {
+  margin-left: 20px;
+  padding: 5px 15px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signInButton:hover {
+  background-color: #e67e22;
+}
